@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="en-US" original="WanaFrance">
+    <body>
+      <group id="body">
+        <trans-unit id="Report 3128097093 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vehicle Tax Report</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report wan Vehicle Tax Report - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3107212894 - Control 3955848764 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3133908286">
+          <source>Vehicle</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension wan Fixed Asset Card - Control wanVehicle - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3107212894 - Control 2838277550 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3133908286">
+          <source>Specifies the value of the Vehicle Admin. Power (cv) field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension wan Fixed Asset Card - Control wan Vehicle Admin. Power (cv) - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3107212894 - Control 1907600429 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3133908286">
+          <source>Specifies the value of the Vehicle Assignment Percentage field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension wan Fixed Asset Card - Control wan Vehicle Assignment Percentage - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3107212894 - Control 2816451613 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3133908286">
+          <source>Specifies the value of the Vehicle Assignment Type field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension wan Fixed Asset Card - Control wan Vehicle Assignment Type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3107212894 - Control 1965182668 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3133908286">
+          <source>Specifies the value of the Vehicle CO2 Emission (g/km) field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension wan Fixed Asset Card - Control wan Vehicle CO2 Emission (g/km) - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3107212894 - Control 1742694072 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3133908286">
+          <source>Specifies the value of the Vehicle First Registration Date field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension wan Fixed Asset Card - Control wan Vehicle First Registr. Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3107212894 - Control 662059808 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3133908286">
+          <source>Specifies the value of the Vehicle Registration ID field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension wan Fixed Asset Card - Control wan Vehicle Registration ID - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3107212894 - Control 1482929415 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3133908286">
+          <source>Specifies the value of the Vehicle Tax Category field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension wan Fixed Asset Card - Control wan Vehicle Tax Category - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3107212894 - Control 78821856 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3133908286">
+          <source>Specifies the value of the Vehicule Tax Starting Date field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension wan Fixed Asset Card - Control wan Vehicule Tax Starting Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3730987194 - Field 1752025010 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 372951706">
+          <source>Vehicle Admin. Power (cv)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension wan Fixed Asset - Field wan Vehicle Admin. Power - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3730987194 - Field 2325769385 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 372951706">
+          <source>Vehicle Assignment Percentage</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension wan Fixed Asset - Field wan Vehicle Assign. Percentage - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3730987194 - Field 2816451613 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 372951706">
+          <source>Vehicle Assignment Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension wan Fixed Asset - Field wan Vehicle Assignment Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3730987194 - Field 2200780137 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 372951706">
+          <source>Vehicle CO2 Emission (g/km)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension wan Fixed Asset - Field wan Vehicle CO2 Emission - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3730987194 - Field 487665794 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 372951706">
+          <source>Vehicle First Registration Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension wan Fixed Asset - Field wan Vehicle First Regist. Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3730987194 - Field 662059808 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 372951706">
+          <source>Vehicle Registration ID</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension wan Fixed Asset - Field wan Vehicle Registration ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3730987194 - Field 1482929415 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 372951706">
+          <source>Vehicle Tax Category</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension wan Fixed Asset - Field wan Vehicle Tax Category - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3730987194 - Field 78821856 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 372951706">
+          <source>Vehicule Tax Starting Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension wan Fixed Asset - Field wan Vehicule Tax Starting Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2816451613 - EnumValue 2166574614 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source> Employee</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum wan Vehicle Assignment Type - EnumValue  Employee - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2816451613 - EnumValue 1163048263 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Enterprise</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum wan Vehicle Assignment Type - EnumValue Enterprise - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1482929415 - EnumValue 613889294 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Diesel fuel and similar</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum wan Vehicle Tax Category - EnumValue Diesel fuel and similar - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1482929415 - EnumValue 3448339824 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Other</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum wan Vehicle Tax Category - EnumValue Other - Property Caption</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
