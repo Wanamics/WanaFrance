@@ -74,23 +74,23 @@ report 87150 "wan Vehicle Tax Report"
         FASetup: Record "FA Setup";
         FADepreciationBook: Record "FA Depreciation Book";
 
-    local procedure Max(Date1: Date; Date2: Date): Date
+    local procedure Max(pDate1: Date; pDate2: Date): Date
     begin
-        if Date1 = 0D then
-            Exit(Date2);
-        if Date1 > Date2 then
-            exit(Date1)
+        if pDate1 = 0D then
+            Exit(pDate2);
+        if pDate1 > pDate2 then
+            exit(pDate1)
         else
-            exit(Date2);
+            exit(pDate2);
     end;
 
-    local procedure Min(Date1: Date; Date2: Date): Date
+    local procedure Min(pDate1: Date; pDate2: Date): Date
     begin
-        if Date1 = 0D then
-            Exit(Date2);
-        if Date1 < Date2 then
-            exit(Date1)
+        if pDate1 = 0D then
+            Exit(pDate2);
+        if pDate1 < pDate2 then
+            exit(pDate1)
         else
-            exit(Date2);
+            exit(pDate2);
     end;
 }

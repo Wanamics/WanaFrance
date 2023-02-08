@@ -9,6 +9,12 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report wan Vehicle Tax Report - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Query 2464040882 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vehicles</source>
+          <target>Véhicules</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Query wan Fixed Asset Vehicle - Property Caption</note>
+        </trans-unit>
         <trans-unit id="PageExtension 3107212894 - Control 3955848764 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3133908286">
           <source>Vehicle</source>
           <target>Véhicule (TVS)</target>
