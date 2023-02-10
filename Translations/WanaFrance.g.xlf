@@ -3,10 +3,85 @@
   <file datatype="xml" source-language="en-US" target-language="en-US" original="WanaFrance">
     <body>
       <group id="body">
+        <trans-unit id="Report 639018760 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>DAS2</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report wan DAS2 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 639018760 - ReportDataItem 3883182266 - Method 72583909 - NamedType 2951045461" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Year is null.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report wan DAS2 - ReportDataItem Integer - Method OnPreDataItem - NamedType YearIsNullErr</note>
+        </trans-unit>
+        <trans-unit id="Report 639018760 - ReportDataItem 3883182266 - Method 72583909 - NamedType 2294662597" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Do you want to extract payment related to %1 account(s) where %2 is set?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report wan DAS2 - ReportDataItem Integer - Method OnPreDataItem - NamedType ConfirmMsg</note>
+        </trans-unit>
+        <trans-unit id="Report 639018760 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report wan DAS2 - Control Options - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Report 3128097093 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Vehicle Tax Report</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report wan Vehicle Tax Report - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Query 639018760 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>DAS2</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Query wan DAS2 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Query 639018760 - QueryColumn 3614373116 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Payment Amount (LCY)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Query wan DAS2 - QueryColumn PaymentAmountLCY - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Query 639018760 - QueryColumn 4118153946 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Payment Posting Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Query wan DAS2 - QueryColumn PaymentPostingDate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Query 639018760 - QueryColumn 2881437613 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>External Document No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Query wan DAS2 - QueryColumn ExternalDocumentNo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Query 639018760 - QueryColumn 471349177 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Original Amt. (LCY)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Query wan DAS2 - QueryColumn OriginalAmtLCY - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Query 639018760 - QueryColumn 1550471503 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Purchase (LCY)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Query wan DAS2 - QueryColumn PurchaseLCY - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Query 639018760 - QueryColumn 1607295407 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vendor No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Query wan DAS2 - QueryColumn VendorNo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Query 639018760 - QueryColumn 636392376 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Query wan DAS2 - QueryColumn Amount - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Query 639018760 - QueryColumn 3117834186 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Query wan DAS2 - QueryColumn DocumentNo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Query 639018760 - QueryColumn 4237283545 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Query wan DAS2 - QueryColumn DocumentType - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Query 639018760 - QueryColumn 3037438984 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posting Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Query wan DAS2 - QueryColumn PostingDate - Property Caption</note>
         </trans-unit>
         <trans-unit id="Query 2464040882 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Vehicles</source>
