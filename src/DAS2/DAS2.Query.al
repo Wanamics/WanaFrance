@@ -35,6 +35,8 @@ query 87152 "wan DAS2"
                     {
                         DataItemLink = "Vendor Ledger Entry No." = VendorLedgerEntry."Entry No.";
                         DataItemTableFilter = "Entry Type" = const(Application);
+                        column(AppliedAmountLCY; "Amount (LCY)") { Caption = 'Applied Amount (LCY)'; }
+
                         dataitem(AppliedEntry; "Vendor Ledger Entry")
                         {
                             DataItemLink = "Entry No." = DetailedVendorLedgEntry."Applied Vend. Ledger Entry No.";

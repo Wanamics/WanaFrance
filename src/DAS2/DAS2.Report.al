@@ -24,7 +24,7 @@ report 87152 "wan DAS2"
             column(PurchaseLCY; DAS2Query.PurchaseLCY) { }
             column(PaymentAmount; DAS2Query.PaymentAmountLCY) { }
             column(PaymentPostingDate; DAS2Query.PaymentPostingDate) { }
-            column(AppliedAmount; AppliedAmount()) { }
+            column(AppliedAmount; DAS2Query.AppliedAmountLCY) { }
             column(VendorNumber; DAS2Query.VendorNumber) { }
             column(VendorName; DAS2Query.VendorName) { }
             column(VendorEORINumber; DAS2Query.VendorEORINumber) { }
@@ -82,7 +82,8 @@ report 87152 "wan DAS2"
     var
         DAS2Query: Query "wan DAS2";
         Year: Integer;
-    //Vendor: Record Vendor;
+    /*
+    Vendor: Record Vendor;
 
     local procedure AppliedAmount(): Decimal
     begin
@@ -91,4 +92,5 @@ report 87152 "wan DAS2"
         else
             exit(DAS2Query.PaymentAmountLCY * DAS2Query.Amount / DAS2Query.PurchaseLCY)
     end;
+    */
 }
