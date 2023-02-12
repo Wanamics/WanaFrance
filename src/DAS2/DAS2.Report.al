@@ -19,6 +19,7 @@ report 87152 "wan DAS2"
             column(Amount; DAS2Query.Amount) { }
             //column(VendorNo; DAS2Query.VendorNo) { }
             //column(VendorName; Vendor.Name) { }
+            column(CurrencyCode; DAS2Query.CurrencyCode) { }
             column(ExternalDocumentNo; DAS2Query.ExternalDocumentNo) { }
             column(PurchaseLCY; DAS2Query.PurchaseLCY) { }
             column(OriginalAmtLCY; DAS2Query.OriginalAmtLCY) { }
