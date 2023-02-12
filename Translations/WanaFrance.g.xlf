@@ -33,6 +33,21 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Query wan DAS2 - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Query 639018760 - QueryColumn 1336408226 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>EORI Number</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Query wan DAS2 - QueryColumn VendorEORINumber - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Query 639018760 - QueryColumn 779730061 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Query wan DAS2 - QueryColumn VendorName - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Query 639018760 - QueryColumn 3254786129 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vendor No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Query wan DAS2 - QueryColumn VendorNumber - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Query 639018760 - QueryColumn 3614373116 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Payment Amount (LCY)</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -57,11 +72,6 @@
           <source>Purchase (LCY)</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Query wan DAS2 - QueryColumn PurchaseLCY - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Query 639018760 - QueryColumn 1607295407 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Vendor No.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Query wan DAS2 - QueryColumn VendorNo - Property Caption</note>
         </trans-unit>
         <trans-unit id="Query 639018760 - QueryColumn 636392376 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Amount</source>

@@ -17,14 +17,17 @@ report 87152 "wan DAS2"
             column(DocumentType; DAS2Query.DocumentType) { }
             column(DocumentNo; DAS2Query.DocumentNo) { }
             column(Amount; DAS2Query.Amount) { }
-            column(VendorNo; DAS2Query.VendorNo) { }
-            column(VendorName; Vendor.Name) { }
+            //column(VendorNo; DAS2Query.VendorNo) { }
+            //column(VendorName; Vendor.Name) { }
             column(ExternalDocumentNo; DAS2Query.ExternalDocumentNo) { }
             column(OriginalAmtLCY; DAS2Query.OriginalAmtLCY) { }
             column(PurchaseLCY; DAS2Query.PurchaseLCY) { }
             column(PaymentAmount; DAS2Query.PaymentAmountLCY) { }
             column(PaymentPostingDate; DAS2Query.PaymentPostingDate) { }
             column(AppliedAmount; AppliedAmount()) { }
+            column(VendorNumber; DAS2Query.VendorNumber) { }
+            column(VendorName; DAS2Query.VendorName) { }
+            column(VendorEORINumber; DAS2Query.VendorEORINumber) { }
             trigger OnPreDataItem()
             var
                 YearIsNullErr: Label 'Year is null.';
@@ -48,9 +51,11 @@ report 87152 "wan DAS2"
                 else
                     if Date2DMY(DAS2Query.PaymentPostingDate, 3) <> Year then
                         CurrReport.Skip()
-                    else
-                        if DAS2Query.VendorNo <> Vendor."No." then
-                            Vendor.Get(DAS2Query.VendorNo);
+                /*
+                else
+                    if DAS2Query.VendorNo <> Vendor."No." then
+                        Vendor.Get(DAS2Query.VendorNo);
+                */
             end;
         }
     }
@@ -77,7 +82,7 @@ report 87152 "wan DAS2"
     var
         DAS2Query: Query "wan DAS2";
         Year: Integer;
-        Vendor: Record Vendor;
+    //Vendor: Record Vendor;
 
     local procedure AppliedAmount(): Decimal
     begin

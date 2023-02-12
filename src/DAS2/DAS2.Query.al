@@ -27,7 +27,7 @@ query 87152 "wan DAS2"
                 dataitem(VendorLedgerEntry; "Vendor Ledger Entry")
                 {
                     DataItemLink = "Vendor No." = GLEntry."Source No.", "Document No." = GLEntry."Document No.", "Posting Date" = GLEntry."Posting Date";
-                    column(VendorNo; "Vendor No.") { Caption = 'Vendor No.'; }
+                    //column(VendorNo; "Vendor No.") { Caption = 'Vendor No.'; }
                     column(ExternalDocumentNo; "External Document No.") { Caption = 'External Document No.'; }
                     column(OriginalAmtLCY; "Original Amt. (LCY)") { Caption = 'Original Amt. (LCY)'; ReverseSign = true; }
                     column(PurchaseLCY; "Purchase (LCY)") { Caption = 'Purchase (LCY)'; ReverseSign = true; }
@@ -38,9 +38,16 @@ query 87152 "wan DAS2"
                         dataitem(AppliedEntry; "Vendor Ledger Entry")
                         {
                             DataItemLink = "Entry No." = DetailedVendorLedgEntry."Applied Vend. Ledger Entry No.";
+                            column(PaymentAmountLCY; "Amount (LCY)") { Caption = 'Payment Amount (LCY)'; }
+                            column(PaymentPostingDate; "Posting Date") { Caption = 'Payment Posting Date'; }
+                            dataitem(Vendor; Vendor)
+                            {
+                                DataItemLink = "No." = VendorLedgerEntry."Vendor No.";
+                                column(VendorNumber; "No.") { Caption = 'Vendor No.'; }
+                                column(VendorName; "Name") { Caption = 'Name'; }
+                                column(VendorEORINumber; "EORI Number") { Caption = 'EORI Number'; }
+                            }
                         }
-                        column(PaymentAmountLCY; "Amount (LCY)") { Caption = 'Payment Amount (LCY)'; }
-                        column(PaymentPostingDate; "Posting Date") { Caption = 'Payment Posting Date'; }
                     }
                 }
             }
