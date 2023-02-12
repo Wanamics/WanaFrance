@@ -20,11 +20,11 @@ report 87152 "wan DAS2"
             //column(VendorNo; DAS2Query.VendorNo) { }
             //column(VendorName; Vendor.Name) { }
             column(ExternalDocumentNo; DAS2Query.ExternalDocumentNo) { }
-            column(OriginalAmtLCY; DAS2Query.OriginalAmtLCY) { }
             column(PurchaseLCY; DAS2Query.PurchaseLCY) { }
+            column(OriginalAmtLCY; DAS2Query.OriginalAmtLCY) { }
+            column(AppliedAmount; DAS2Query.AppliedAmountLCY) { }
             column(PaymentAmount; DAS2Query.PaymentAmountLCY) { }
             column(PaymentPostingDate; DAS2Query.PaymentPostingDate) { }
-            column(AppliedAmount; DAS2Query.AppliedAmountLCY) { }
             column(VendorNumber; DAS2Query.VendorNumber) { }
             column(VendorName; DAS2Query.VendorName) { }
             column(VendorEORINumber; DAS2Query.VendorEORINumber) { }

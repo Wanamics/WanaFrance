@@ -28,9 +28,10 @@ query 87152 "wan DAS2"
                 {
                     DataItemLink = "Vendor No." = GLEntry."Source No.", "Document No." = GLEntry."Document No.", "Posting Date" = GLEntry."Posting Date";
                     //column(VendorNo; "Vendor No.") { Caption = 'Vendor No.'; }
+                    column(CurrencyCode; "Currency Code") { Caption = 'Currency Code'; }
                     column(ExternalDocumentNo; "External Document No.") { Caption = 'External Document No.'; }
-                    column(OriginalAmtLCY; "Original Amt. (LCY)") { Caption = 'Original Amt. (LCY)'; ReverseSign = true; }
                     column(PurchaseLCY; "Purchase (LCY)") { Caption = 'Purchase (LCY)'; ReverseSign = true; }
+                    column(OriginalAmtLCY; "Original Amt. (LCY)") { Caption = 'Original Amt. (LCY)'; ReverseSign = true; }
                     dataitem(DetailedVendorLedgEntry; "Detailed Vendor Ledg. Entry")
                     {
                         DataItemLink = "Vendor Ledger Entry No." = VendorLedgerEntry."Entry No.";

@@ -75,6 +75,12 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Query wan DAS2 - QueryColumn AppliedAmountLCY - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Query 639018760 - QueryColumn 567887726 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Currency Code</source>
+          <target>Code devise</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Query wan DAS2 - QueryColumn CurrencyCode - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Query 639018760 - QueryColumn 2881437613 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>External Document No.</source>
           <target>N° doc. externe</target>
