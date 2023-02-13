@@ -73,6 +73,7 @@ report 87152 "wan DAS2"
                     field(Year; Year)
                     {
                         ApplicationArea = All;
+                        Caption = 'Year';
                         MinValue = 2000;
                         BlankZero = true;
                     }

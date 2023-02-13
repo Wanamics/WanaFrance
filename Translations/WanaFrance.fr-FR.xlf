@@ -27,6 +27,12 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report wan DAS2 - Control Options - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Report 639018760 - Control 2832340769 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Year</source>
+          <target>Année</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report wan DAS2 - Control Year - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Report 3128097093 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Vehicle Tax Report</source>
           <target>Taxes sur les véhicules (TVS)</target>
