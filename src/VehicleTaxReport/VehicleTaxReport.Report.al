@@ -9,8 +9,9 @@ report 87150 "wan Vehicle Tax Report"
     {
         dataitem(FixedAsset; "Fixed Asset")
         {
-            RequestFilterFields = "No.", "FA Posting Group", "FA Posting Date Filter", "wan Vehicle Registration ID", "wan Vehicle Assignment Type", "wan Vehicle Tax Category";
+            RequestFilterFields = "No.", "FA Posting Group", "wan Vehicle Registration ID", "wan Vehicle Assignment Type", "wan Vehicle Tax Category";
             column(CompanyName; CompanyName) { }
+            column(Year; Year) { }
             column(No; "No.") { }
             column(Description; Description) { }
             column(ProfessionalTax; "Professional Tax") { }
@@ -24,21 +25,23 @@ report 87150 "wan Vehicle Tax Report"
             column(VehicleAssignmentPercentage; "wan Vehicle Assign. Percentage") { }
             column(AcquisitionDate; FADepreciationBook."Acquisition Date") { }
             column(DisposalDate; FADepreciationBook."Disposal Date") { }
-            column(TaxStartingDate; Max("wan Vehicule Tax Starting Date", GetRangeMin("FA Posting Date Filter"))) { }
-            column(TaxEndingDate; Min(FADepreciationBook."Disposal Date", GetRangeMax("FA Posting Date Filter"))) { }
+            column(TaxStartingDate; Max("wan Vehicule Tax Starting Date", DMY2Date(1, 1, Year))) { }
+            column(TaxEndingDate; Min(FADepreciationBook."Disposal Date", DMY2Date(31, 12, Year))) { }
             trigger OnPreDataItem()
+            var
+                YearIsNullErr: Label 'Year is null.';
             begin
-                if (GetRangeMin("FA Posting Date Filter") = 0D) or (GetRangeMax("FA Posting Date Filter") = 0D) then
-                    TestField("FA Posting Date Filter");
+                if Year = 0 then
+                    Error(YearIsNullErr);
             end;
 
             trigger OnAfterGetRecord()
             begin
                 if not FADepreciationBook.Get("No.", FASetup."Default Depr. Book") then
                     CurrReport.Skip();
-                if (FADepreciationBook."Disposal Date" <> 0D) and (FADepreciationBook."Disposal Date" < GetRangeMin("FA Posting Date Filter")) then
+                if (FADepreciationBook."Disposal Date" <> 0D) and (FADepreciationBook."Disposal Date" < DMY2Date(1, 1, Year)) then
                     CurrReport.Skip;
-                if "wan Vehicule Tax Starting Date" > GetRangeMax("FA Posting Date Filter") then
+                if "wan Vehicule Tax Starting Date" > DMY2Date(31, 12, Year) then
                     CurrReport.Skip();
                 if "wan Vehicle Assign. Percentage" = 0 then
                     "wan Vehicle Assign. Percentage" := 100;
@@ -52,15 +55,17 @@ report 87150 "wan Vehicle Tax Report"
         {
             area(content)
             {
-                group(GroupName)
+                group(Options)
                 {
+                    Caption = 'Options';
+                    field(Year; Year)
+                    {
+                        ApplicationArea = All;
+                        Caption = 'Year';
+                        MinValue = 2000;
+                        BlankZero = true;
+                    }
                 }
-            }
-        }
-        actions
-        {
-            area(processing)
-            {
             }
         }
     }
@@ -71,6 +76,7 @@ report 87150 "wan Vehicle Tax Report"
     end;
 
     var
+        Year: Integer;
         FASetup: Record "FA Setup";
         FADepreciationBook: Record "FA Depreciation Book";
 

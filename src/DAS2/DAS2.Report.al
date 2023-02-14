@@ -52,11 +52,6 @@ report 87152 "wan DAS2"
                 else
                     if Date2DMY(DAS2Query.PaymentPostingDate, 3) <> Year then
                         CurrReport.Skip()
-                /*
-                else
-                    if DAS2Query.VendorNo <> Vendor."No." then
-                        Vendor.Get(DAS2Query.VendorNo);
-                */
             end;
         }
     }
@@ -84,15 +79,4 @@ report 87152 "wan DAS2"
     var
         DAS2Query: Query "wan DAS2";
         Year: Integer;
-    /*
-    Vendor: Record Vendor;
-
-    local procedure AppliedAmount(): Decimal
-    begin
-        if DAS2Query.PurchaseLCY = 0 then
-            exit(0)
-        else
-            exit(DAS2Query.PaymentAmountLCY * DAS2Query.Amount / DAS2Query.PurchaseLCY)
-    end;
-    */
 }

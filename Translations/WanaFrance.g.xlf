@@ -33,6 +33,21 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report wan Vehicle Tax Report - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Report 3128097093 - ReportDataItem 1716211490 - Method 72583909 - NamedType 2951045461" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Year is null.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report wan Vehicle Tax Report - ReportDataItem FixedAsset - Method OnPreDataItem - NamedType YearIsNullErr</note>
+        </trans-unit>
+        <trans-unit id="Report 3128097093 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report wan Vehicle Tax Report - Control Options - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3128097093 - Control 2832340769 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Year</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report wan Vehicle Tax Report - Control Year - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Query 639018760 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>DAS2</source>
           <note from="Developer" annotates="general" priority="2"></note>

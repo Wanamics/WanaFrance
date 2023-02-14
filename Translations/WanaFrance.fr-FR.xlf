@@ -39,6 +39,24 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report wan Vehicle Tax Report - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Report 3128097093 - ReportDataItem 1716211490 - Method 72583909 - NamedType 2951045461" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Year is null.</source>
+          <target>Année non définie.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report wan Vehicle Tax Report - ReportDataItem FixedAsset - Method OnPreDataItem - NamedType YearIsNullErr</note>
+        </trans-unit>
+        <trans-unit id="Report 3128097093 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <target>Options</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report wan Vehicle Tax Report - Control Options - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3128097093 - Control 2832340769 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Year</source>
+          <target>Année</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report wan Vehicle Tax Report - Control Year - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Query 639018760 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>DAS2</source>
           <target>DAS2</target>
@@ -90,8 +108,6 @@
         <trans-unit id="Query 639018760 - QueryColumn 2881437613 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>External Document No.</source>
           <target>N° doc. externe</target>
-          <target>[NAB: SUGGESTION]N° document externe</target>
-          <target>[NAB: SUGGESTION]N° du document externe</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Query wan DAS2 - QueryColumn ExternalDocumentNo - Property Caption</note>
         </trans-unit>
@@ -104,7 +120,6 @@
         <trans-unit id="Query 639018760 - QueryColumn 1550471503 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Purchase (LCY)</source>
           <target>Achats DS</target>
-          <target>[NAB: SUGGESTION]Achats (DS)</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Query wan DAS2 - QueryColumn PurchaseLCY - Property Caption</note>
         </trans-unit>
@@ -117,22 +132,18 @@
         <trans-unit id="Query 639018760 - QueryColumn 3117834186 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Document No.</source>
           <target>N° document</target>
-          <target>[NAB: SUGGESTION]N° du document</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Query wan DAS2 - QueryColumn DocumentNo - Property Caption</note>
         </trans-unit>
         <trans-unit id="Query 639018760 - QueryColumn 4237283545 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Document Type</source>
           <target>Type document</target>
-          <target>[NAB: SUGGESTION]Type de document</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Query wan DAS2 - QueryColumn DocumentType - Property Caption</note>
         </trans-unit>
         <trans-unit id="Query 639018760 - QueryColumn 3037438984 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Posting Date</source>
           <target>Date comptabilisation</target>
-          <target>[NAB: SUGGESTION]Date de validation</target>
-          <target>[NAB: SUGGESTION]Date de comptabilisation</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Query wan DAS2 - QueryColumn PostingDate - Property Caption</note>
         </trans-unit>
