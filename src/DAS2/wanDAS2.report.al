@@ -1,3 +1,7 @@
+namespace Wanamics.France.DAS2;
+
+using System.Utilities;
+using Microsoft.Finance.GeneralLedger.Account;
 report 87152 "wan DAS2"
 {
     ApplicationArea = All;
@@ -17,8 +21,6 @@ report 87152 "wan DAS2"
             column(DocumentType; DAS2Query.DocumentType) { }
             column(DocumentNo; DAS2Query.DocumentNo) { }
             column(Amount; DAS2Query.Amount) { }
-            //column(VendorNo; DAS2Query.VendorNo) { }
-            //column(VendorName; Vendor.Name) { }
             column(CurrencyCode; DAS2Query.CurrencyCode) { }
             column(ExternalDocumentNo; DAS2Query.ExternalDocumentNo) { }
             column(PurchaseLCY; DAS2Query.PurchaseLCY) { }
@@ -28,7 +30,13 @@ report 87152 "wan DAS2"
             column(PaymentPostingDate; DAS2Query.PaymentPostingDate) { }
             column(VendorNumber; DAS2Query.VendorNumber) { }
             column(VendorName; DAS2Query.VendorName) { }
+            column(VATRegistrationNo; Das2Query.VendorVATRegistrationNo) { }
             column(VendorEORINumber; DAS2Query.VendorEORINumber) { }
+            column(Address; DAS2Query.Address) { }
+            column(Address2; DAS2Query.Address2) { }
+            column(PostCode; DAS2Query.PostCode) { }
+            column(City; DAS2Query.City) { }
+            column(CountryRegionCode; DAS2Query.CountryRegionCode) { }
             trigger OnPreDataItem()
             var
                 YearIsNullErr: Label 'Year is null.';
@@ -42,16 +50,14 @@ report 87152 "wan DAS2"
                     if not Confirm(ConfirmMsg, false, GLAccount.Count, GLAccount.FieldCaption("Tax Group Code")) then
                         CurrReport.Quit();
                 end;
+                DAS2Query.SetRange(PaymentPostingDate, DMY2Date(1, 1, Year), DMY2Date(31, 12, Year));
                 DAS2Query.Open();
             end;
 
             trigger OnAfterGetRecord()
             begin
                 if not DAS2Query.Read() then
-                    CurrReport.Break()
-                else
-                    if Date2DMY(DAS2Query.PaymentPostingDate, 3) <> Year then
-                        CurrReport.Skip()
+                    CurrReport.Break();
             end;
         }
     }

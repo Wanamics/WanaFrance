@@ -1,288 +1,282 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
-  <file datatype="xml" source-language="en-US" target-language="fr-FR" original="WanaFrance">
+  <file datatype="xml" source-language="en-US" target-language="fr-FR" original="WanaFrance.g.xlf">
     <body>
       <group id="body">
         <trans-unit id="Report 639018760 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>DAS2</source>
           <target>DAS2</target>
-          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report wan DAS2 - Property Caption</note>
         </trans-unit>
         <trans-unit id="Report 639018760 - ReportDataItem 3883182266 - Method 72583909 - NamedType 2951045461" size-unit="char" translate="yes" xml:space="preserve">
           <source>Year is null.</source>
           <target>Année non définie.</target>
-          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report wan DAS2 - ReportDataItem Integer - Method OnPreDataItem - NamedType YearIsNullErr</note>
         </trans-unit>
         <trans-unit id="Report 639018760 - ReportDataItem 3883182266 - Method 72583909 - NamedType 2294662597" size-unit="char" translate="yes" xml:space="preserve">
           <source>Do you want to extract payment related to %1 account(s) where %2 is set?</source>
           <target>Voulez-vous extraire les payments relatifs à %1 comptes pour lesquels %2 est renseigné ?</target>
-          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report wan DAS2 - ReportDataItem Integer - Method OnPreDataItem - NamedType ConfirmMsg</note>
         </trans-unit>
         <trans-unit id="Report 639018760 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Options</source>
           <target>Options</target>
-          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report wan DAS2 - Control Options - Property Caption</note>
         </trans-unit>
         <trans-unit id="Report 639018760 - Control 2832340769 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Year</source>
           <target>Année</target>
-          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report wan DAS2 - Control Year - Property Caption</note>
         </trans-unit>
         <trans-unit id="Report 3128097093 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Vehicle Tax Report</source>
           <target>Taxes sur les véhicules (TVS)</target>
-          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report wan Vehicle Tax Report - Property Caption</note>
         </trans-unit>
         <trans-unit id="Report 3128097093 - ReportDataItem 1716211490 - Method 72583909 - NamedType 2951045461" size-unit="char" translate="yes" xml:space="preserve">
           <source>Year is null.</source>
           <target>Année non définie.</target>
-          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report wan Vehicle Tax Report - ReportDataItem FixedAsset - Method OnPreDataItem - NamedType YearIsNullErr</note>
         </trans-unit>
         <trans-unit id="Report 3128097093 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Options</source>
           <target>Options</target>
-          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report wan Vehicle Tax Report - Control Options - Property Caption</note>
         </trans-unit>
         <trans-unit id="Report 3128097093 - Control 2832340769 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Year</source>
           <target>Année</target>
-          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report wan Vehicle Tax Report - Control Year - Property Caption</note>
         </trans-unit>
         <trans-unit id="Query 639018760 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>DAS2</source>
           <target>DAS2</target>
-          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Query wan DAS2 - Property Caption</note>
         </trans-unit>
         <trans-unit id="Query 639018760 - QueryColumn 1336408226 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>EORI Number</source>
           <target>Numéro EORI (enregistrement et identification des opérateurs économiques)</target>
-          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Query wan DAS2 - QueryColumn VendorEORINumber - Property Caption</note>
         </trans-unit>
         <trans-unit id="Query 639018760 - QueryColumn 779730061 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Name</source>
           <target>Nom</target>
-          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Query wan DAS2 - QueryColumn VendorName - Property Caption</note>
         </trans-unit>
         <trans-unit id="Query 639018760 - QueryColumn 3254786129 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Vendor No.</source>
           <target>N° fournisseur</target>
-          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Query wan DAS2 - QueryColumn VendorNumber - Property Caption</note>
         </trans-unit>
         <trans-unit id="Query 639018760 - QueryColumn 3614373116 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Payment Amount (LCY)</source>
           <target>Montant paiement</target>
-          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Query wan DAS2 - QueryColumn PaymentAmountLCY - Property Caption</note>
         </trans-unit>
         <trans-unit id="Query 639018760 - QueryColumn 4118153946 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Payment Posting Date</source>
           <target>Date paiement</target>
-          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Query wan DAS2 - QueryColumn PaymentPostingDate - Property Caption</note>
         </trans-unit>
         <trans-unit id="Query 639018760 - QueryColumn 468410105 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Applied Amount (LCY)</source>
           <target>Montant lettré (DS)</target>
-          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Query wan DAS2 - QueryColumn AppliedAmountLCY - Property Caption</note>
         </trans-unit>
         <trans-unit id="Query 639018760 - QueryColumn 567887726 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Currency Code</source>
           <target>Code devise</target>
-          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Query wan DAS2 - QueryColumn CurrencyCode - Property Caption</note>
         </trans-unit>
         <trans-unit id="Query 639018760 - QueryColumn 2881437613 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>External Document No.</source>
           <target>N° doc. externe</target>
-          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Query wan DAS2 - QueryColumn ExternalDocumentNo - Property Caption</note>
         </trans-unit>
         <trans-unit id="Query 639018760 - QueryColumn 471349177 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Original Amt. (LCY)</source>
           <target>Montant initial DS</target>
-          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Query wan DAS2 - QueryColumn OriginalAmtLCY - Property Caption</note>
         </trans-unit>
         <trans-unit id="Query 639018760 - QueryColumn 1550471503 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Purchase (LCY)</source>
           <target>Achats DS</target>
-          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Query wan DAS2 - QueryColumn PurchaseLCY - Property Caption</note>
         </trans-unit>
         <trans-unit id="Query 639018760 - QueryColumn 636392376 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Amount</source>
           <target>Montant</target>
-          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Query wan DAS2 - QueryColumn Amount - Property Caption</note>
         </trans-unit>
         <trans-unit id="Query 639018760 - QueryColumn 3117834186 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Document No.</source>
           <target>N° document</target>
-          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Query wan DAS2 - QueryColumn DocumentNo - Property Caption</note>
         </trans-unit>
         <trans-unit id="Query 639018760 - QueryColumn 4237283545 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Document Type</source>
           <target>Type document</target>
-          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Query wan DAS2 - QueryColumn DocumentType - Property Caption</note>
         </trans-unit>
         <trans-unit id="Query 639018760 - QueryColumn 3037438984 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Posting Date</source>
           <target>Date comptabilisation</target>
-          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Query wan DAS2 - QueryColumn PostingDate - Property Caption</note>
         </trans-unit>
         <trans-unit id="Query 2464040882 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Vehicles</source>
           <target>Véhicules</target>
-          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Query wan Fixed Asset Vehicle - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 3107212894 - Control 3955848764 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3133908286">
           <source>Vehicle</source>
           <target>Véhicule (TVS)</target>
-          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension wan Fixed Asset Card - Control wanVehicle - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 3107212894 - Control 2838277550 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3133908286">
           <source>Specifies the value of the Vehicle Admin. Power (cv) field.</source>
           <target>Spécifie la puissance fiscale du véhicule (en cv).</target>
-          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension wan Fixed Asset Card - Control wan Vehicle Admin. Power (cv) - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="PageExtension 3107212894 - Control 1907600429 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3133908286">
           <source>Specifies the value of the Vehicle Assignment Percentage field.</source>
           <target>Spécifie le pourcentage d'affectation du véhicule.</target>
-          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension wan Fixed Asset Card - Control wan Vehicle Assignment Percentage - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="PageExtension 3107212894 - Control 2816451613 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3133908286">
           <source>Specifies the value of the Vehicle Assignment Type field.</source>
           <target>Spécifie le type d'affectation du véhicule.</target>
-          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension wan Fixed Asset Card - Control wan Vehicle Assignment Type - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="PageExtension 3107212894 - Control 1965182668 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3133908286">
           <source>Specifies the value of the Vehicle CO2 Emission (g/km) field.</source>
           <target>Spécifie le taux d'émission de CO2 du véhicule (en g/km).</target>
-          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension wan Fixed Asset Card - Control wan Vehicle CO2 Emission (g/km) - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="PageExtension 3107212894 - Control 1742694072 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3133908286">
           <source>Specifies the value of the Vehicle First Registration Date field.</source>
           <target>Spécifie la date de première immatriculation du véhicule.</target>
-          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension wan Fixed Asset Card - Control wan Vehicle First Registr. Date - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="PageExtension 3107212894 - Control 662059808 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3133908286">
           <source>Specifies the value of the Vehicle Registration ID field.</source>
           <target>Spécifie l'immatriculation du véhicule.</target>
-          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension wan Fixed Asset Card - Control wan Vehicle Registration ID - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="PageExtension 3107212894 - Control 1482929415 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3133908286">
           <source>Specifies the value of the Vehicle Tax Category field.</source>
           <target>Spécifie la catégorie de taxe du véhicule.</target>
-          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension wan Fixed Asset Card - Control wan Vehicle Tax Category - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="PageExtension 3107212894 - Control 78821856 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3133908286">
           <source>Specifies the value of the Vehicule Tax Starting Date field.</source>
           <target>Spécifie la date de début de taxation du véhicule.</target>
-          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension wan Fixed Asset Card - Control wan Vehicule Tax Starting Date - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="PageExtension 1235061282 - Action 7649676 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 337631938">
-          <source>Clear Allow Posting From/To</source>
-          <target>Effacer début/fin période validation</target>
-          <note from="Developer" annotates="general" priority="2"/>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension wan User Setup - Action wanClearAllowPosting - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 3730987194 - Field 1752025010 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 372951706">
           <source>Vehicle Admin. Power (cv)</source>
           <target>Puissance fiscale (cv)</target>
-          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension wan Fixed Asset - Field wan Vehicle Admin. Power - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 3730987194 - Field 2325769385 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 372951706">
           <source>Vehicle Assignment Percentage</source>
           <target>% affectation</target>
-          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension wan Fixed Asset - Field wan Vehicle Assign. Percentage - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 3730987194 - Field 2816451613 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 372951706">
           <source>Vehicle Assignment Type</source>
           <target>Type affectation</target>
-          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension wan Fixed Asset - Field wan Vehicle Assignment Type - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 3730987194 - Field 2200780137 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 372951706">
           <source>Vehicle CO2 Emission (g/km)</source>
           <target>Emission CO2 (g/km)</target>
-          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension wan Fixed Asset - Field wan Vehicle CO2 Emission - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 3730987194 - Field 487665794 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 372951706">
           <source>Vehicle First Registration Date</source>
           <target>Date 1ère immatriculation</target>
-          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension wan Fixed Asset - Field wan Vehicle First Regist. Date - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 3730987194 - Field 662059808 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 372951706">
           <source>Vehicle Registration ID</source>
           <target>N° immatriculation</target>
-          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension wan Fixed Asset - Field wan Vehicle Registration ID - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 3730987194 - Field 1482929415 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 372951706">
           <source>Vehicle Tax Category</source>
           <target>Catégorie taxe</target>
-          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension wan Fixed Asset - Field wan Vehicle Tax Category - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 3730987194 - Field 78821856 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 372951706">
           <source>Vehicule Tax Starting Date</source>
           <target>Date début taxe</target>
-          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension wan Fixed Asset - Field wan Vehicule Tax Starting Date - Property Caption</note>
         </trans-unit>
         <trans-unit id="Enum 2816451613 - EnumValue 2166574614 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source> Employee</source>
           <target>Salarié</target>
-          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum wan Vehicle Assignment Type - EnumValue  Employee - Property Caption</note>
         </trans-unit>
         <trans-unit id="Enum 2816451613 - EnumValue 1163048263 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Enterprise</source>
           <target>Entreprise</target>
-          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum wan Vehicle Assignment Type - EnumValue Enterprise - Property Caption</note>
         </trans-unit>
         <trans-unit id="Enum 1482929415 - EnumValue 613889294 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Diesel fuel and similar</source>
           <target>Gazole et similaire</target>
-          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum wan Vehicle Tax Category - EnumValue Diesel fuel and similar - Property Caption</note>
         </trans-unit>
         <trans-unit id="Enum 1482929415 - EnumValue 3448339824 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Other</source>
           <target>Autre</target>
-          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum wan Vehicle Tax Category - EnumValue Other - Property Caption</note>
         </trans-unit>
       </group>

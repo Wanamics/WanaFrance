@@ -14,7 +14,7 @@
   "screenshots": [],
   "platform": "1.0.0.0",
   "application": "21.0.0.0",
-  "contextSensitiveHelpUrl": "https://github.com/Wanamics/WanaFrance?tab=readme-ov-file#extension-wanafrance",
+  "contextSensitiveHelpUrl": "https://www.wanamics.fr/WanaFrance/",
   "idRanges": [
     {
       "from": 87150,
@@ -26,7 +26,7 @@
     "allowDownloadingSource": true,
     "includeSourceInSymbolFile": true
   },
-  "runtime": "12.0",
+  "runtime": "14.0",
   "features": [
     "NoImplicitWith",
     "TranslationFile",

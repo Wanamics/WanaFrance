@@ -1,3 +1,6 @@
+namespace Wanamics.France.VehicleTaxReport;
+
+using Microsoft.FixedAssets.FixedAsset;
 tableextension 87150 "wan Fixed Asset" extends "Fixed Asset"
 {
     fields
