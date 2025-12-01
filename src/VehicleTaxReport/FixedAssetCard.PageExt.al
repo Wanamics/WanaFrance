@@ -1,3 +1,6 @@
+namespace Wanamics.France.VehicleTaxReport;
+
+using Microsoft.FixedAssets.FixedAsset;
 pageextension 87150 "wan Fixed Asset Card" extends "Fixed Asset Card"
 {
     layout

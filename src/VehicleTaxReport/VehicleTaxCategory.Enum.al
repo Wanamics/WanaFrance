@@ -1,3 +1,4 @@
+namespace Wanamics.France.VehicleTaxReport;
 enum 87151 "wan Vehicle Tax Category"
 {
     Extensible = true;

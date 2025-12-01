@@ -1,3 +1,4 @@
+namespace Wanamics.France.VehicleTaxReport;
 enum 87150 "wan Vehicle Assignment Type"
 {
     Extensible = true;

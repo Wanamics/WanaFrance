@@ -1,3 +1,7 @@
+namespace Wanamics.France.VehicleTaxReport;
+
+using Microsoft.FixedAssets.FixedAsset;
+using Microsoft.FixedAssets.Depreciation;
 query 87150 "wan Fixed Asset Vehicle"
 {
     Caption = 'Vehicles';

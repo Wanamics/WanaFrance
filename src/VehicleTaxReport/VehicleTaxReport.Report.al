@@ -1,3 +1,8 @@
+namespace Wanamics.France.VehicleTaxReport;
+
+using Microsoft.FixedAssets.FixedAsset;
+using Microsoft.FixedAssets.Depreciation;
+using Microsoft.FixedAssets.Setup;
 report 87150 "wan Vehicle Tax Report"
 {
     ApplicationArea = All;
