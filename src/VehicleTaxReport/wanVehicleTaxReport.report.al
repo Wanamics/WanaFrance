@@ -3,7 +3,7 @@ report 87150 "wan Vehicle Tax Report"
     ApplicationArea = All;
     Caption = 'Vehicle Tax Report';
     UsageCategory = ReportsAndAnalysis;
-    ExcelLayout = '.\src\VehicleTaxReport\VehicleTaxReport.xlsx';
+    ExcelLayout = '.\ReportLayouts\VehicleTaxReport.xlsx';
     DefaultLayout = Excel;
     dataset
     {

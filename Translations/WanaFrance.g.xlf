@@ -173,6 +173,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension wan Fixed Asset Card - Control wan Vehicule Tax Starting Date - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="PageExtension 1235061282 - Action 7649676 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 337631938">
+          <source>Clear Allow Posting From/To</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension wan User Setup - Action wanClearAllowPosting - Property Caption</note>
+        </trans-unit>
         <trans-unit id="TableExtension 3730987194 - Field 1752025010 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 372951706">
           <source>Vehicle Admin. Power (cv)</source>
           <note from="Developer" annotates="general" priority="2"></note>

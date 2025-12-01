@@ -2,7 +2,7 @@
   "id": "22716dda-634b-4e81-a579-c6b50a0604ab",
   "name": "WanaFrance",
   "publisher": "Wanamics",
-  "version": "1.0.0.0",
+  "version": "1.0.0.3",
   "brief": "",
   "description": "",
   "privacyStatement": "",
@@ -14,7 +14,7 @@
   "screenshots": [],
   "platform": "1.0.0.0",
   "application": "21.0.0.0",
-  "contextSensitiveHelpUrl": "https://www.wanamics.fr/WanaFrance/",
+  "contextSensitiveHelpUrl": "https://github.com/Wanamics/WanaFrance?tab=readme-ov-file#extension-wanfrance",
   "idRanges": [
     {
       "from": 87150,
@@ -26,7 +26,7 @@
     "allowDownloadingSource": true,
     "includeSourceInSymbolFile": true
   },
-  "runtime": "10.0",
+  "runtime": "12.0",
   "features": [
     "NoImplicitWith",
     "TranslationFile",

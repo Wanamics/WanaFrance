@@ -4,7 +4,7 @@ report 87152 "wan DAS2"
     Caption = 'DAS2';
     UsageCategory = Administration;
     DefaultLayout = Excel;
-    ExcelLayout = './src/DAS2/DAS2.xlsx';
+    ExcelLayout = './ReportLayouts/DAS2.xlsx';
     dataset
     {
         dataitem(Integer; Integer)
